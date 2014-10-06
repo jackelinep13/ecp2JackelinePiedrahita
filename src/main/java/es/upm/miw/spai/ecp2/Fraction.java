@@ -60,4 +60,7 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public boolean isMenor(Fraction f){
+    	return true;
+    }
 }
