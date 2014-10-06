@@ -42,6 +42,9 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
     
+    public Point addPoint(Point valorSumar){
+    	
+    	return new Point(this.x+valorSumar.getX(), this.y+valorSumar.getY());
+    }
+    
 }
-
-//test
