@@ -62,9 +62,13 @@ public class Fraction {
     
     public boolean isMenor(Fraction f){
     	boolean isMenor = false;
-    	if(f.decimal() < this.decimal()){
+    	if(this.decimal() < f.decimal()){
     		isMenor = true;
     	}
     	return isMenor;
+    }
+    
+    public boolean isPropia(){
+    	return false;
     }
 }
