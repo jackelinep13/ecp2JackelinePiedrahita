@@ -30,6 +30,12 @@ public class DecimalCollectionTest {
     public void tesHigher() {
     	assertEquals(3.5, dc.higher(), 0);
     }
+    
+    @Test
+    public void tesMultiplicarCollection() {
+    	assertEquals(22.75, dc.multiplicarCollection(), 0);
+    }
+	
 	
     
 }
