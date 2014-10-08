@@ -6,11 +6,12 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class PointTest {
-    private Point pt;
+    private Point pt,pt2;
 
     @Before
     public void before() {
         pt = new Point(2, 3);
+        pt2 = new Point(1, 1);
     }
 
     @Test
@@ -47,5 +48,12 @@ public class PointTest {
     public void testToString() {
         assertEquals("Point[2,3]", pt.toString());
     }
+    
+    @Test
+    public void testAddPoint() {
+        assertEquals(3, pt.addPoint(pt2).getX());
+        assertEquals(4, pt.addPoint(pt2).getY());
+    } 
+ 
 
 }

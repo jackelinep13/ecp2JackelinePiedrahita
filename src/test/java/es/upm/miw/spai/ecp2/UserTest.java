@@ -43,7 +43,7 @@ public class UserTest {
     }
  @Test
  	public void testNameMayusculas(){
-	 assertEquals("ANA", pt.getNameMayusculas());
+	 assertEquals("ANA", pt.nombreMayusculas());
  }
   
 }

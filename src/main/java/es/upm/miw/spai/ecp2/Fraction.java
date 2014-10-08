@@ -59,7 +59,26 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+
     public Fraction isMayor(Fraction f1, Fraction f2){
-    	return null;
-    }    
+    	if(f1.decimal() > f2.decimal()){
+    		 return f1;
+    	} else {
+    		return f2;
+    	}
+     
+    }
+       
+    
+    public boolean isMenor(Fraction f){
+    	boolean isMenor = false;
+    	if(this.decimal() < f.decimal()){
+    		isMenor = true;
+    	}
+    	return isMenor;
+    }
+    
+    public boolean isPropia(){
+    	return false;
+    }
 }
