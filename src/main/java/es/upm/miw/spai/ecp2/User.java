@@ -37,4 +37,10 @@ public class User {
     public String initials() {
         return this.name.substring(0, 1) + ".";
     }
+    
+    public void nombreMayusculas(){
+    	this.name = name.toUpperCase();
+    }
+    
+    
 }
