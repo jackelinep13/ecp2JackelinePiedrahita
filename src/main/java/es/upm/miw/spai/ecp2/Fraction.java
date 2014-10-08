@@ -59,5 +59,7 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
-    
+    public Fraction isMayor(Fraction f1, Fraction f2){
+    	return null;
+    }    
 }

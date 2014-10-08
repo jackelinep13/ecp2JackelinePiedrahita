@@ -41,5 +41,9 @@ public class UserTest {
     public void testInitials() {
   assertEquals("A.", pt.initials());
     }
+ @Test
+ 	public void testNameMayusculas(){
+	 assertEquals("ANA", pt.getNameMayusculas());
+ }
   
 }
