@@ -65,11 +65,9 @@ public class Fraction {
     		 return f1;
     	} else {
     		return f2;
-    	}
-     
+    	}     
     }
-       
-    
+           
     public boolean isMenor(Fraction f){
     	boolean isMenor = false;
     	if(this.decimal() < f.decimal()){
