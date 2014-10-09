@@ -34,5 +34,15 @@ public class DecimalCollection {
         }
         return higher;
     }
+    
+    public double multiplicarCollection(){
+    	double result = 1;
+    	double aux;
+    	for(int i= 0; i<collection.size();i++){
+    		aux = collection.get(i);
+    		result = result * aux;
+    	}
+    	return result;
+    }
 
 }
