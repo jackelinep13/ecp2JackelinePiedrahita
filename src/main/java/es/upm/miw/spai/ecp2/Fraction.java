@@ -79,6 +79,6 @@ public class Fraction {
     }
     
     public boolean isPropia(){
-    	return false;
+    	return this.numerator<this.denominator;
     }
 }
